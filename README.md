@@ -24,9 +24,9 @@ Primeiramennte os motoristas terão que se registar para que possam estar aptos 
 - Ter internet 
 
 **Passo a passo:**
-1.Abrir a aplicação
-2.Clicar em "registar"
-3.Preencher com os dados pedidos
+1. Abrir a aplicação
+2. Clicar em "registar"
+3. Preencher com os dados pedidos
 
 **Pós-condições:**
 - terão de confirmar a connnta com o cartão de cidadão e carta de condução 
@@ -39,9 +39,9 @@ Será obrigatório o utilizador criar uma conta para usufruir da aplicação
 - Ter internet 
 
 **Passo a passo:**
-1.Abrir a aplicação
-2.Clicar em "registar"
-3.Preencher com os dados pedidos
+1. Abrir a aplicação
+2. Clicar em "registar"
+3. Preencher com os dados pedidos
 
 **Pós-condições:**
 - NA
@@ -55,11 +55,11 @@ O utilizador terá de criar um anúncio e esperar que um conndutor o aceite
 - Estar registado
 
 **Passo a passo:**
-1.Abrir a aplicação \
-2.Clicar em "entrar" \
-3.Preencher com os dados da conta \
-4.Clicar em "criar anúncio" \
-5.Preencher com os dados pedidos \
+1. Abrir a aplicação 
+2. Clicar em "entrar" 
+3. Preencher com os dados da conta 
+4. Clicar em "criar anúncio" 
+5. Preencher com os dados pedidos 
 
 **Pós-condições:**
 - O pedido será listado na aplicação á espera que o condutor o aceite
