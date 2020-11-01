@@ -55,11 +55,11 @@ O utilizador terá de criar um anúncio e esperar que um conndutor o aceite
 - Estar registado
 
 **Passo a passo:**
-1.Abrir a aplicação
-2.Clicar em "entrar"
-3.Preencher com os dados da conta
-4.Clicar em "criar anúncio"
-5.Preencher com os dados pedidos
+1.Abrir a aplicação \
+2.Clicar em "entrar" \
+3.Preencher com os dados da conta \
+4.Clicar em "criar anúncio" \
+5.Preencher com os dados pedidos \
 
 **Pós-condições:**
 - O pedido será listado na aplicação á espera que o condutor o aceite
