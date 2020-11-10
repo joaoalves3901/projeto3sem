@@ -10,9 +10,9 @@
 |  num2  | nome2 |
 
 ## Enquadramento
-Esta aplicação serve para rentabilizar toda a capacidade livre das carrinhas, camiões. Poderá ser utilizada por empresas de qualquer escala ou até a nivel pessoal.
-Quase sempre estas empresas/pessoas quando vão entregar algo ou fazer uma mudança nunca utilizão a capacidade na totalidade então com esta aplicação vão poder apanhar um artigo publicado por um utilizador que seja compativél com o percurso do condutor.
-Assim,utilizando o espaço livre destas carrinnhas  irá diminuir o CO2 emitido para a atmosfera.
+Esta aplicação serve para rentabilizar toda a capacidade livre de carrinhas e camiões. Poderá ser utilizada por empresas de qualquer escala ou até a nivel pessoal.
+Quase sempre estas empresas/pessoas quando vão entregar algo ou fazer uma mudança nunca utilizão a capacidade na totalidade, sendo assim com esta aplicação vão poder apanhar um artigo publicado por um utilizador que seja compativél com o percurso do condutor.
+Assim,utilizando o espaço livre destas carrinnhas irá diminuir o CO2 emitido para a atmosfera.
 
 ## Casos de utilização:
 
