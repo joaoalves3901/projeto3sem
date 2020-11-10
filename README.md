@@ -11,7 +11,7 @@
 
 ## Enquadramento
 Esta aplicação serve para rentabilizar toda a capacidade livre das carrinhas, camiões. Poderá ser utilizada por empresas de qualquer escala ou até a nivel pessoal.
-Quase sempre estas empresas/pessoas quando vão entregar algo ou fazer uma mudança nnunca utilizão a capacidade na totalidade então com esta aplicação vão poder apanhar um artigo publicado por um utilizador que seja compativél com o percurso do condutor.
+Quase sempre estas empresas/pessoas quando vão entregar algo ou fazer uma mudança nunca utilizão a capacidade na totalidade então com esta aplicação vão poder apanhar um artigo publicado por um utilizador que seja compativél com o percurso do condutor.
 Assim,utilizando o espaço livre destas carrinnhas  irá diminuir o CO2 emitido para a atmosfera.
 
 ## Casos de utilização:
@@ -29,7 +29,7 @@ Primeiramennte os motoristas terão que se registar para que possam estar aptos 
 3. Preencher com os dados pedidos
 
 **Pós-condições:**
-- terão de confirmar a connnta com o cartão de cidadão e carta de condução 
+- terão de confirmar a conta com o cartão de cidadão e carta de condução 
 
 ### Registo  do utilizador
 **Descrição:** \
@@ -48,7 +48,7 @@ Será obrigatório o utilizador criar uma conta para usufruir da aplicação
 
 ### Fazer o anúncio do artigo
 **Descrição:** \
-O utilizador terá de criar um anúncio e esperar que um conndutor o aceite 
+O utilizador terá de criar um anúncio e esperar que um condutor o aceite 
 
 **Pré-condições:**
 - Ter internet
