@@ -10,8 +10,8 @@
 |  20190800 | Rafael Santos |
 
 ## Enquadramento
-Apesar de Portugal estar nos dez países que com melhor qualidade do ar, esta é uma realiade é a causa de mais de seis mil mortes anuais, de acordo com Agência Portuguesa do Ambiente (APA). Tendo isto em consideração, é crucial que se desenvolvam estudos e, acima de tudo, meios na tentativa de combater este problema. Por outro lado, com o contexto atual do mundo, as emissões de gases de Co2 tiveram um quebra significativa, na medida em que, com o teletrabalho e as medidas impostas pelo governo, recorreu-se menos ao uso do carro, algumas fábricas fecharam e durante muito tempo o mundo esteve "parado".
-Ainda assim, é necessário continuar a reduzir o número destas emissões.Deste modo esta aplicação serve para rentabilizar a capacidade livre de carrinhas e camiões e poderá ser utilizada por empresas de qualquer escala ou até a nivel pessoal.
+Apesar de Portugal estar nos dez países que com melhor qualidade do ar, esta é uma realiade que causa de mais de seis mil mortes anuais, de acordo com Agência Portuguesa do Ambiente (APA). Tendo isto em consideração, é crucial que se desenvolvam estudos e, acima de tudo, meios na tentativa de combater este problema. Por outro lado, com o contexto atual do mundo, as emissões de gases de Co2 tiveram uma quebra significativa, na medida em que, com o teletrabalho e as medidas impostas pelo governo, recorreu-se menos ao uso do carro, algumas fábricas fecharam e durante muito tempo o mundo esteve "parado".
+Ainda assim, é necessário continuar a reduzir o número destas emissões. Deste modo esta aplicação serve para rentabilizar a capacidade livre de carrinhas e camiões e poderá ser utilizada por empresas de qualquer escala ou até a nivel pessoal.
 Sempre que as empresas/pessoas vão entregar algo ou fazer uma mudança nunca utilizam a capacidade na sua totalidade, sendo assim, com esta aplicação vão poder apanhar um artigo publicado por um utilizador que seja compativél com o percurso do condutor.
 Assim, utilizando o espaço livre destas carrinhas irá diminuir o CO2 emitido para a atmosfera.
 
