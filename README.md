@@ -17,36 +17,6 @@ Assim, utilizando o espaço livre destas carrinhas irá diminuir o CO2 emitido p
 
 ## Casos de utilização
 
-### Registo de motoristas
-**Descrição:** \
-Primeiramennte os motoristas terão que se registar para que possam estar aptos a transportar artigos.
-
-**Pré-condições:**
-- Ter internet 
-
-**Passo a passo:**
-1. Abrir a aplicação
-2. Clicar em "registar"
-3. Preencher com os dados pedidos
-
-**Pós-condições:**
-- terão de confirmar a conta com o cartão de cidadão e carta de condução 
-
-### Registo  do utilizador
-**Descrição:** \
-Será obrigatório o utilizador criar uma conta para usufruir da aplicação
-
-**Pré-condições:**
-- Ter internet 
-
-**Passo a passo:**
-1. Abrir a aplicação
-2. Clicar em "registar"
-3. Preencher com os dados pedidos
-
-**Pós-condições:**
-- NA
-
 ### Fazer o anúncio do artigo
 **Descrição:** \
 O utilizador terá de criar um anúncio e esperar que um condutor o aceite 
@@ -60,10 +30,51 @@ O utilizador terá de criar um anúncio e esperar que um condutor o aceite
 2. Clicar em "entrar" 
 3. Preencher com os dados da conta 
 4. Clicar em "criar anúncio" 
-5. Preencher com os dados pedidos 
+5. Preencher com os dados pedidos (dimensões, local de recolha, destino, descrição do artigo)
+6. clicar em "anunciar"
+7. É mostrada uma mensagem de confirmação caso tenha preenchido tudo corretamente
+8. É mostrado um erro caso não tenha preenchido tudo
 
 **Pós-condições:**
 - O pedido será listado na aplicação á espera que o condutor o aceite
+
+### Escolha do anúncio pelo motorista
+**Descrição:** \
+Será obrigatório o motorista criar uma conta para usufruir da aplicação
+
+**Pré-condições:**
+- Ter internet
+- Ter a conta confirmada (carta de condução)
+
+**Passo a passo:**
+1. Abrir a aplicação
+2. Clicar em "Ver anuncios"
+3. Introduzir o local e o destino da sua deslocação
+4. Aparecerá todos os anuncios compativeis com esse trajeto
+5. É apresentada uma lista de anúncios
+6. O motorista poderá aceitar um ou mais anúncios
+
+**Pós-condições:**
+- NA
+
+### Após entrega do artigo
+**Descrição:** \
+O motorista confirma a entrega quando esta for concluida com sucesso
+
+**Pré-condições:**
+- Ter internet
+- Estar registado
+- Ter um anuncio com entrega pendente
+
+**Passo a passo:**
+1. Abrir a aplicação 
+2. Fazer log in
+3. Clicar em "minhas entregas"
+4. Clicar na entrega que deseja mudar o estado 
+5. Mudar o estado para "ENTREGUE" 
+
+**Pós-condições:**
+- O estado do anuncio muda de PENDENTE para ENTREGUE no lado do cliente
 
 ## Referências:
 \
