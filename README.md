@@ -33,7 +33,7 @@ O utilizador terá de criar um anúncio e esperar que um condutor o aceite
 5. Preencher com os dados pedidos (dimensões, local de recolha, destino, descrição do artigo)
 6. clicar em "anunciar"
 7. É mostrada uma mensagem de confirmação caso tenha preenchido tudo corretamente
-8. É mostrado um erro caso não tenha preenchido tudo
+8. É mostrado um erro caso não tenha preenchido tudo.
 
 **Pós-condições:**
 - O pedido será listado na aplicação á espera que o condutor o aceite
