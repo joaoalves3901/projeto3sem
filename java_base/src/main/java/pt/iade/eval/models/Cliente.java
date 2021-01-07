@@ -14,21 +14,26 @@ public class  Cliente {
 @Id @GeneratedValue
 (strategy = GenerationType.IDENTITY)
 
-    private int anuncio_id;
+    private int cliente_id;
     private String name;
     private char gender;
     private Date dataNasc;
     private String email;
     private Integer tlm;
+    private String morada;
+    private String pass;
 
-    public Cliente(String name, char gender, Date dataNasc, String email, Integer tlm) {
+    public Cliente(String name, char gender, Date dataNasc, String email, Integer tlm, String morada, String pass) {
         this.name = name;
         this.gender = gender;
         this.dataNasc = dataNasc;
         this.email = email;
         this.tlm = tlm;
+        this.morada = morada;
+        this.pass = pass;
     }
 
+    
     public String getName() {
         return name;
     }
@@ -48,6 +53,14 @@ public class  Cliente {
 
     public Integer getTlm() {
         return tlm;
-    }    
+    }
+
+    public String getMorada() {
+        return morada;
+    }
+
+    public String getPass() {
+        return pass;
+    }
 
 }
