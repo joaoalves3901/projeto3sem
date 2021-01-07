@@ -2,17 +2,29 @@ package pt.iade.eval.models;
 
 import java.sql.Date;
 
-public class Cliente {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name ="Clientes")
+public class  Cliente {
+@Id @GeneratedValue
+(strategy = GenerationType.IDENTITY)
+
+    private int anuncio_id;
     private String name;
     private char gender;
-    private Date datanasc;
+    private Date dataNasc;
     private String email;
     private Integer tlm;
 
-    public Cliente(String name, char gender, Date datanasc, String email, Integer tlm) {
+    public Cliente(String name, char gender, Date dataNasc, String email, Integer tlm) {
         this.name = name;
         this.gender = gender;
-        this.datanasc = datanasc;
+        this.dataNasc = dataNasc;
         this.email = email;
         this.tlm = tlm;
     }
@@ -25,8 +37,8 @@ public class Cliente {
         return gender;
     }
 
-    public Date getDatanasc() {
-        return datanasc;
+    public Date getDataNasc() {
+        return dataNasc;
     }
     
     public String getEmail() {
