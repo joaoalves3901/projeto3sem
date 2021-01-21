@@ -14,8 +14,8 @@ import javax.persistence.Table;
             (strategy = GenerationType.IDENTITY)
 
             @Column(name="empresa_id") private int empresa_id;
-            @Column(name="empresa_name") private String empresa_name;
-            @Column(name="empresa_desc") private String empresa_desc;
+            @Column(name="empresa_name") private String nome;
+            @Column(name="empresa_desc") private String descricao;
 
             public Empresa() {}
 
@@ -24,11 +24,11 @@ import javax.persistence.Table;
             }
 
             public String getEmpresa_name() {
-                return empresa_name;
+                return nome;
             }
 
             public String getEmpresa_desc() {
-                return empresa_desc;
+                return descricao;
             }
 
             

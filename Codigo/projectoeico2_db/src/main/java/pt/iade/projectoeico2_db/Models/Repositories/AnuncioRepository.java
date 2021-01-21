@@ -15,11 +15,8 @@ import pt.iade.projectoeico2_db.Models.Anuncio;
 
 public interface AnuncioRepository extends CrudRepository <Anuncio, Integer> {
 
-    String QueryFindAnuncio =
-    "SELECT a.anuncio_id AS id, a.anuncio_cliente_id AS cliente, a.anuncio_origem AS origem, "+
-    "a.anuncio_destino AS destino, a.anuncio_volume AS volume, a.anuncio_desc AS descricao, "+
-    "FROM anuncio a";
+    String QueryFindAnuncio = "SELECT * FROM anuncio a";
 
-    @Query(value = QueryFindAnuncio + " Where a.anuncio_destino=:destino", nativeQuery = true)
-    Iterable<Anuncio> findAnuncioByDestino (@Param("destino") String destino);
+    //@Query(value = QueryFindAnuncio + " Where a.anuncio_destino=:destino", nativeQuery = true)
+    Iterable<Anuncio> findAnuncioByDestino (String destino);
 }

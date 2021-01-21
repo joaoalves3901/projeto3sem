@@ -29,6 +29,8 @@ public class AnuncioController {
         return anuncioRepository.findAll();
     }
 
+
+    
     @GetMapping(path = "/{destino}", produces= MediaType.APPLICATION_JSON_VALUE)
     public Iterable<Anuncio> getAdvertisemenyByDestino(@PathVariable String destino) {
         logger.info("Sending advertisements where final destination is"+ destino);

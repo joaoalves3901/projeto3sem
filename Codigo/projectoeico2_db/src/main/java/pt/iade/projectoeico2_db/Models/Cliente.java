@@ -19,9 +19,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
         @Id @GeneratedValue
             (strategy = GenerationType.IDENTITY)
 			@Column(name="cliente_id") private int cliente_id;
-            @Column(name="cliente_nome") private String clinte_nome;
-            @Column(name="cliente_morada") private String clinte_morada;
-			@Column(name="cliente_email") private String cliente_email;
+            @Column(name="cliente_nome") private String nome;
+            @Column(name="cliente_morada") private String morada;
+			@Column(name="cliente_email") private String email;
 
 			@OneToMany @JoinColumn(name="anuncio_cliente_id")
 			@JsonIgnoreProperties({"clientes"})
@@ -35,15 +35,15 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
             }
             
 			public String getClinte_nome() {
-				return clinte_nome;
+				return nome;
 			}
 
 			public String getClinte_morada() {
-				return clinte_morada;
+				return morada;
 			}
 	
 			public String getCliente_email() {
-				return cliente_email;
+				return email;
 			}
 
 			public List<Anuncio> getAnuncios() {
