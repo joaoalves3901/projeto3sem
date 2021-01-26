@@ -16,7 +16,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
     public class Anuncio {
         @Id @GeneratedValue
             (strategy = GenerationType.IDENTITY)
-            @Column(name="anuncio_id") private int anuncio_id;
+            @Column(name="anuncio_id") private int id;
 
             @ManyToOne @JoinColumn(name="anuncio_cliente_id")
             @JsonIgnoreProperties({"anuncios"})
@@ -27,30 +27,29 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
             @Column(name="anuncio_volume") private int volume;
             @Column(name="anuncio_desc") private String descricao;
 
-            public Anuncio() {}             
+            public Anuncio() {}
 
-            public int getAnuncio_id() {
-                return anuncio_id;
+            public int getId() {
+                return id;
             }
-
-            public String getAnuncio_origem() {
-                return origem;
-            }
-
-            public String getAnuncio_destino() {
-                return destino;
-            }
-
-            public int getAnuncio_volume() {
-                return volume;
-            }
-
-            public String getAnuncio_desc() {
-                return descricao;
-            }
-
+     
             public Cliente getCliente() {
                 return cliente;
             }
-       
+
+            public String getOrigem() {
+                return origem;
+            }
+
+            public String getDestino() {
+                return destino;
+            }
+
+            public int getVolume() {
+                return volume;
+            }
+
+            public String getDescricao() {
+                return descricao;
+            }
     }

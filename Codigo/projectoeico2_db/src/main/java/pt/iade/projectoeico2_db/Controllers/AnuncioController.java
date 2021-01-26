@@ -17,7 +17,7 @@ import pt.iade.projectoeico2_db.Models.Anuncio;
 import pt.iade.projectoeico2_db.Models.Repositories.AnuncioRepository;
 
 @RestController
-@RequestMapping(path="/api/anuncio")
+@RequestMapping(path="/api/anuncios")
 public class AnuncioController {
     private Logger logger = LoggerFactory.getLogger(AnuncioController.class);
     @Autowired
@@ -32,16 +32,22 @@ public class AnuncioController {
 
     
     @GetMapping(path = "/{destino}", produces= MediaType.APPLICATION_JSON_VALUE)
-    public Iterable<Anuncio> getAdvertisemenyByDestino(@PathVariable String destino) {
-        logger.info("Sending advertisements where final destination is"+ destino);
+    public Iterable<Anuncio> getAdByDestino(@PathVariable String destino) {
+        logger.info("Sending advertisements where final destination is" + destino);
         return anuncioRepository.findAnuncioByDestino(destino);
     }
 
+    /*@GetMapping(path = "/{id}", produces= MediaType.APPLICATION_JSON_VALUE)
+    public Optional<Anuncio> getAdById(@PathVariable Integer id) {
+        logger.info("Sending advertisements where id is" + id);
+        return anuncioRepository.findById(id);
+    }
 
-    @PostMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
+
+    /*@PostMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
     public Anuncio saveAlbum(@RequestBody Anuncio newAnuncio) {
         logger.info("Saving Anuncio:"+ newAnuncio.getAnuncio_desc());
         Anuncio anuncio = anuncioRepository.save(newAnuncio);
         return anuncio;
-    }
+    }*/
 }
