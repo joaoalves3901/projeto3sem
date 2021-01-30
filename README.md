@@ -17,9 +17,9 @@ Assim, utilizando o espaço livre destas carrinhas irá diminuir o CO2 emitido p
 
 ## Casos de utilização
 
-### Fazer o anúncio do artigo
+### Escolha de Usuario e Apresentaçao de todos os anuncios da App
 **Descrição:** \
-O utilizador terá de criar um anúncio e esperar que um condutor o aceite 
+O utilizador da app podera escolher que tipo de utilizador o mesmo é. (Cliente ou Condutor)
 
 **Pré-condições:**
 - Ter internet
@@ -27,54 +27,44 @@ O utilizador terá de criar um anúncio e esperar que um condutor o aceite
 
 **Passo a passo:**
 1. Abrir a aplicação 
-2. Clicar em "entrar" 
-3. Preencher com os dados da conta 
-4. Clicar em "criar anúncio" 
-5. Preencher com os dados pedidos (dimensões, local de recolha, destino, descrição do artigo)
-6. clicar em "anunciar"
-7. É mostrada uma mensagem de confirmação caso tenha preenchido tudo corretamente
-8. É mostrado um erro caso não tenha preenchido tudo.
+2. Escolher que perfil deseja 
+3. Carregar no botao respetivo abaixo da sua escolha 
+4. De seguida estara na interface do utilizador que escolheu, este muda se for condutor ou um simples cliente, ambos mostram todos os anuncios ainda nao aceites por condutores.
 
-**Pós-condições:**
-- O pedido será listado na aplicação á espera que o condutor o aceite
-
-### Escolha do anúncio pelo motorista
+### Criaçao de Anuncios
 **Descrição:** \
-Será obrigatório o motorista criar uma conta para usufruir da aplicação
+Podera tanto sendo condutor como cliente usufruir da criaçao de anuncios e em ambas as interfaces tera uma hiperligaçao para ir criar o mesmo e preencher com os dados do mesmo.
 
 **Pré-condições:**
 - Ter internet
-- Ter a conta confirmada (carta de condução)
+- Ter a escolha do tipo de usuario e que qual usuario escolheu
 
 **Passo a passo:**
-1. Abrir a aplicação
-2. Clicar em "Ver anuncios"
-3. Introduzir o local e o destino da sua deslocação
-4. Aparecerá todos os anuncios compativeis com esse trajeto
-5. É apresentada uma lista de anúncios
-6. O motorista poderá aceitar um ou mais anúncios
+1. Depois do primeiro caso de utilizaçao ira ser apresentado uma interface em que na mesma existe uma hiperligacao com o nome de "Adicionar Anuncio"
+2. Clicar em "Adicionar Anuncio"
+3. Introduzir todos os dados sobre o anuncio que o utilizador quer criar
+4. Clicar em "Criar"
+5. É apresentado ja os dados do seu anuncio para mostrar que o mesmo foi criado
 
 **Pós-condições:**
 - NA
 
-### Após entrega do artigo
+### Aceitar um anuncio ainda nao aceite
 **Descrição:** \
-O motorista confirma a entrega quando esta for concluida com sucesso
+Os condutores poderao aceitar anuncios que ainda nao foram aceites e confirmar os mesmos
 
 **Pré-condições:**
 - Ter internet
-- Estar registado
-- Ter um anuncio com entrega pendente
+- Estar a usar um usuario do tipo condutor
 
 **Passo a passo:**
-1. Abrir a aplicação 
-2. Fazer log in
-3. Clicar em "minhas entregas"
-4. Clicar na entrega que deseja mudar o estado 
-5. Mudar o estado para "ENTREGUE" 
+1. Podera escolher qualquer anuncio na sua pagina principal carregando em cima do mesmo
+2. Ira aparecer de seguida todas as informaçoes do anuncio que escolheu
+3. Se desejar aceitar e confirmar o mesmo, sera necessario clicar em "Aceitar Anuncio"
+4. Sera redirecionado para a pagina inicial e o mesmo ja nao estara a ser apresentado porque ja foi aceite por si. 
 
 **Pós-condições:**
-- O estado do anuncio muda de PENDENTE para ENTREGUE no lado do cliente
+- O anuncio recebe um estado e o mesmo ja nao aparece na lista de anuncios
 
 ## Referências:
 \

@@ -40,9 +40,9 @@ insert into condutor_has_empresa (empresa_id, cond_id, cargo) values (3,3,'Funci
 insert into condutor_has_empresa (empresa_id, cond_id, cargo) values (4,4,'Funcionario'); 
 insert into condutor_has_empresa (empresa_id, cond_id, cargo) values (5,5,'Funcionario');
 
-insert into condutor_has_anuncio (cond_anuncio_id, cond_id, estado) values (1,2,'Confirmada/Espera'); 
+insert into condutor_has_anuncio (cond_anuncio_id, cond_id, estado) values (1,2,'Confirmada'); 
 insert into condutor_has_anuncio (cond_anuncio_id, cond_id, estado) values (2,3,'Entregue'); 
-insert into condutor_has_anuncio (cond_anuncio_id, cond_id, estado) values (3,4,'Confirmada/Espera'); 
+insert into condutor_has_anuncio (cond_anuncio_id, cond_id, estado) values (3,4,'Confirmada'); 
 insert into condutor_has_anuncio (cond_anuncio_id, cond_id, estado) values (4,5,'Entregue'); 
  
 commit;
