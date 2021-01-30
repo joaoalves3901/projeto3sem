@@ -1,0 +1,11 @@
+SET FOREIGN_KEY_CHECKS = 0;
+drop table clientes;
+drop table anuncioestado;
+drop table anuncioinfo;
+drop table anuncio;
+drop table condutor;
+drop table condutor_has_anuncio;
+drop table condutor_has_empresa;
+drop table empresa;
+drop table estadoentrega;
+SET FOREIGN_KEY_CHECKS = 1;
