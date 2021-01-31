@@ -32,7 +32,7 @@ function showAds(anuncios) {
 
 function showAd(id) {
     sessionStorage.setItem("id", id);
-    window.location = "advertisement.html";
+    window.location = "advertisementCondutor.html";
 }
 
 
@@ -41,7 +41,7 @@ async function filterDestino() {
         let destino = document.getElementById("destino").value;
         alert(destino);
         let anuncios = await $.ajax({
-            url: "/api/anuncios/" + destino,
+            url: "/api/anuncios/destino/" + destino,
             method: "get",
             dataType: "json"
         });

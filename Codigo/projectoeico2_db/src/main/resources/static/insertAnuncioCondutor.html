@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="stylesheets/index.css">
     <link rel="stylesheet" href="stylesheets/advertisement.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="javascripts/insertAdvertisement.js"></script>
+    <script src="javascripts/insertAdvertisementCondutor.js"></script>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             </select>
         </h2>
         <h3>Destino:
-            <select id="destino">
+            <select id="destinopost">
                 <option value="Lisboa">Lisboa</option>
                 <option value="Porto">Porto</option>
                 <option value="Leiria">Leiria</option>
@@ -36,7 +36,7 @@
         </h3>
         <h2>Volume: <input type="number" id="volume" min="0" max="10000"></h2>
         <h2>Descrição: <input type="text" id="descricao"></h2>
-        <h2><input type="button" value="Adicionar" onclick="insertAd()"></h2>
+        <h2><input type="button" value="Adicionar" onclick="addAnuncio()"></h2>
     </main>
     <footer> FOOTER </footer>
 </body>

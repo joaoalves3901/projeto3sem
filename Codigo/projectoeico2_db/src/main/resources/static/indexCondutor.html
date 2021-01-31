@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DeliveryApp</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascripts/listAdvertisementsCondutor.js"></script>
+</head>
+
+<body>
+    <header> Lista de Anúncios </header>
+
+    <nav>
+        <a href="insertAnuncioCondutor.html">Adicionar Anúncio</a>
+    </nav>
+
+    <section>
+        <h2>Destino:
+            <select id="destino">
+                <option value="Lisboa">Lisboa</option>
+                <option value="Porto">Porto</option>
+                <option value="Leiria">Leiria</option>
+                <option value="Faro">Faro</option>
+                <option value="Beja">Beja</option>
+                <option value="Viseu">Viseu</option>
+                <option value="Braga">Braga</option>
+            </select>
+        </h2>
+        <input type="button" value="Filtrar" onclick="filterDestino()">
+        <br> <br>
+        <input type="button" value="Mostrar Todos" onclick="loadAdvertisements()">
+
+
+    </section>
+
+    <main id="main">
+
+    </main>
+
+    <footer> FOOTER </footer>
+</body>
+
+</html>

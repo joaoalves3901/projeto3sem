@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
     public class Cliente {
         @Id @GeneratedValue
             (strategy = GenerationType.IDENTITY)
-			@Column(name="cliente_id") private int id;
+			@Column(name="cliente_id") private int clienteid;
             @Column(name="cliente_nome") private String nome;
             @Column(name="cliente_morada") private String morada;
 			@Column(name="cliente_email") private String email;
@@ -30,9 +30,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 			
 			public Cliente() {}
 
-			public int getId() {
-				return id;
-			}
+			
 
 			public String getNome() {
 				return nome;
@@ -48,6 +46,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 			public List<Anuncio> getAnuncios() {
 				return anuncios;
+			}
+
+			public int getClienteid() {
+				return clienteid;
 			}
 
     }

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inserir Anuncio</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/advertisement.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascripts/insertAdvertisementCliente.js"></script>
+</head>
+
+<body>
+    <header> Adicionar Anuncio </header>
+    <main>
+        <h2>Origem:
+            <select id="origem">
+                <option value="Lisboa">Lisboa</option>
+                <option value="Porto">Porto</option>
+                <option value="Leiria">Leiria</option>
+                <option value="Faro">Faro</option>
+                <option value="Beja">Beja</option>
+                <option value="Viseu">Viseu</option>
+                <option value="Braga">Braga</option>
+            </select>
+        </h2>
+        <h3>Destino:
+            <select id="destinopost">
+                <option value="Lisboa">Lisboa</option>
+                <option value="Porto">Porto</option>
+                <option value="Leiria">Leiria</option>
+                <option value="Faro">Faro</option>
+                <option value="Beja">Beja</option>
+                <option value="Viseu">Viseu</option>
+                <option value="Braga">Braga</option>
+            </select>
+        </h3>
+        <h2>Volume: <input type="number" id="volume" min="0" max="10000"></h2>
+        <h2>Descrição: <input type="text" id="descricao"></h2>
+        <h2><input type="button" value="Adicionar" onclick="addAnuncio()"></h2>
+    </main>
+    <footer> FOOTER </footer>
+</body>
+
+</html>

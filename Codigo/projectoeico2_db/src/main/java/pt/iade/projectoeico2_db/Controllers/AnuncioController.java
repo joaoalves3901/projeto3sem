@@ -26,28 +26,28 @@ public class AnuncioController {
     @GetMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
     public Iterable<Anuncio> getAnuncios() {
         logger.info("Sending all advertisements");
-        return anuncioRepository.findAll();
+        return anuncioRepository.findAnuncios();
     }
 
 
     
-    @GetMapping(path = "/{destino}", produces= MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/destino/{destino}", produces= MediaType.APPLICATION_JSON_VALUE)
     public Iterable<Anuncio> getAdByDestino(@PathVariable String destino) {
         logger.info("Sending advertisements where final destination is" + destino);
         return anuncioRepository.findAnuncioByDestino(destino);
     }
 
-    /*@GetMapping(path = "/{id}", produces= MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/{id}", produces= MediaType.APPLICATION_JSON_VALUE)
     public Optional<Anuncio> getAdById(@PathVariable Integer id) {
         logger.info("Sending advertisements where id is" + id);
         return anuncioRepository.findById(id);
     }
 
 
-    /*@PostMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
-    public Anuncio saveAlbum(@RequestBody Anuncio newAnuncio) {
-        logger.info("Saving Anuncio:"+ newAnuncio.getAnuncio_desc());
+    @PostMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
+    public Anuncio saveAnuncio(@RequestBody Anuncio newAnuncio) {
+        logger.info("Saving Anuncio:"+ newAnuncio.getDescricao());
         Anuncio anuncio = anuncioRepository.save(newAnuncio);
         return anuncio;
-    }*/
+    }
 }
