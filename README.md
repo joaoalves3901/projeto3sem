@@ -17,7 +17,7 @@ Assim, utilizando o espaço livre destas carrinhas irá diminuir o CO2 emitido p
 
 ## Casos de utilização
 
-### Escolha de Usuario e Apresentaçao de todos os anuncios da App
+### Apresentaçao de todos os anuncios da App
 **Descrição:** \
 O utilizador da app podera escolher que tipo de utilizador o mesmo é. (Cliente ou Condutor)
 
