@@ -51,7 +51,8 @@
     ORDER BY estado_entrega_id;
     
 
-    
+    /*SELECIONA TODOS OS ANUNCIOS QUE AINDA NAO FORAM ACEITES POR CONDUTORES*/
+    select * from anuncio where anuncio_id NOT IN (select cond_anuncio_id from condutor_has_anuncio) order by anuncio_origem;
     
     
     
