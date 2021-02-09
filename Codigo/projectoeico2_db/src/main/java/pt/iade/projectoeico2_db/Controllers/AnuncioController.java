@@ -29,6 +29,12 @@ public class AnuncioController {
         return anuncioRepository.findAnuncios();
     }
 
+    @GetMapping(path = "/cliente/{id}", produces= MediaType.APPLICATION_JSON_VALUE)
+    public Iterable<Anuncio> getAnunciosId(@PathVariable int id) {
+        logger.info("Sending all advertisements with id" + id);
+        return anuncioRepository.findAnunciosId(id);
+    }
+
 
     
     @GetMapping(path = "/destino/{destino}", produces= MediaType.APPLICATION_JSON_VALUE)

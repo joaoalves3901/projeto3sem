@@ -20,7 +20,7 @@ async function acceptAdvertisement() {
     try {
         let anuncioaceite = {
             anuncio:  {anuncioid: sessionStorage.getItem("id")},
-            condutor: {condutorid: sessionStorage.getItem("condutorId")},
+            condutor: {condutor: sessionStorage.getItem("condutorId")},
             estado: "Confirmada",
         }
         console.log(JSON.stringify(anuncioaceite));

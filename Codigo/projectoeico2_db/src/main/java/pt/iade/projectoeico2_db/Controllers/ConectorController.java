@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 
 
 @RestController
-@RequestMapping(path="/api/anunciosaceites")
+@RequestMapping(path="/api/anuncios/aceites")
 
 public class ConectorController {
     private Logger logger = LoggerFactory.getLogger(CondutorController.class);
@@ -39,7 +39,7 @@ public class ConectorController {
     }
 
     @PostMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
-    public ConectorAnuncioCondutor saveAnuncio(@RequestBody ConectorAnuncioCondutor newAcceptedAnuncio) {
+    public ConectorAnuncioCondutor acceptAnuncio(@RequestBody ConectorAnuncioCondutor newAcceptedAnuncio) {
         logger.info("Linking this driver with this advertisement:"+ newAcceptedAnuncio.getAnuncio());
         ConectorAnuncioCondutor conectoranunciocondutor = conectorRepository.save(newAcceptedAnuncio);
         return conectoranunciocondutor;

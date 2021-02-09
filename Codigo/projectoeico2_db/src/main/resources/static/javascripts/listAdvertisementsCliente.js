@@ -4,8 +4,10 @@ window.onload = function () {
 
 async function loadAdvertisements() {
     try {
+        let idc = sessionStorage.getItem("clienteId");
+        
         let anuncios = await $.ajax({
-            url: "/api/anuncios",
+            url: "/api/anuncios/cliente/"+ idc,
             method: "get",
             dataType: "json"
         });
