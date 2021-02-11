@@ -25,7 +25,7 @@ async function acceptAdvertisement() {
         }
         console.log(JSON.stringify(anuncioaceite));
         let result = await $.ajax({
-            url: "/api/anunciosaceites",
+            url: "/api/anuncios/aceites",
             method: "post",
             dataType: "json",
             data:JSON.stringify(anuncioaceite),
